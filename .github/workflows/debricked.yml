@@ -1,6 +1,6 @@
 name: Vulnerability scan
 
-on: [push]branch_protection_rule: 
+on: [push] 
 jobs:
   vulnerabilities-scan:
       runs-on: ubuntu-latest
